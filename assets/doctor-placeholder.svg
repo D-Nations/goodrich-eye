@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Physician portrait placeholder illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eaf6f5"/>
+      <stop offset="1" stop-color="#d2e6ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="600" cy="320" r="130" fill="#f5d7bb"/>
+  <path d="M470 330c20-125 250-150 290 0v95H470Z" fill="#2b4f5f"/>
+  <rect x="470" y="430" width="260" height="250" rx="120" fill="#f5d7bb"/>
+  <path d="M350 840c20-130 120-230 250-230s230 100 250 230" fill="#ffffff"/>
+  <path d="M360 840c20-90 100-170 240-170s220 80 240 170" fill="#7fb9b6"/>
+  <text x="600" y="120" text-anchor="middle" fill="#2f595f" font-size="44" font-family="Segoe UI, sans-serif">Physician Photo Placeholder</text>
+</svg>

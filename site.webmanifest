@@ -1,0 +1,15 @@
+{
+  "name": "Goodrich Eye Clinic",
+  "short_name": "Goodrich Eye",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f2f8f7",
+  "theme_color": "#0d6f6b",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
