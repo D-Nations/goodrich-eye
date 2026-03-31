@@ -1,2 +1,2 @@
 # goodrich-eye
-Private practice opthalmologist website
+Private practice ophthalmologist website
