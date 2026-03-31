@@ -32,3 +32,7 @@ pwsh -NoProfile -File skills/clinic-site-updates/scripts/check-first-flight.ps1
 ## Local Preview
 
 Open `index.html` directly in a browser for a quick preview.
+
+## Launch Checklist
+
+Use [GO-LIVE-CHECKLIST.md](GO-LIVE-CHECKLIST.md) for a practical pre-launch checklist.
