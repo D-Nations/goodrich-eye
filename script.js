@@ -2,8 +2,8 @@
   "use strict";
 
   var defaults = {
-    phoneDisplay: "(512) 555-0199",
-    phoneE164: "+15125550199",
+    phoneDisplay: "Coming Soon",
+    phoneE164: "",
     address: "1200 Vision Park Blvd, Austin, TX 78701",
     mapQuery: "1200 Vision Park Blvd, Austin, TX 78701",
     hours: ["Mon-Thu: 8:00 AM - 5:00 PM", "Fri: 8:00 AM - 1:00 PM", "Sat-Sun: Closed"],
@@ -30,9 +30,14 @@
     });
 
     document.querySelectorAll("[data-phone-link]").forEach(function (node) {
-      node.setAttribute("href", "tel:" + config.phoneE164);
-      if (!node.getAttribute("aria-label")) {
-        node.setAttribute("aria-label", "Call " + config.phoneDisplay);
+      if (config.phoneE164) {
+        node.setAttribute("href", "tel:" + config.phoneE164);
+        if (!node.getAttribute("aria-label")) {
+          node.setAttribute("aria-label", "Call " + config.phoneDisplay);
+        }
+      } else {
+        node.removeAttribute("href");
+        node.removeAttribute("aria-label");
       }
     });
 

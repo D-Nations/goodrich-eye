@@ -1,7 +1,7 @@
 window.clinicSiteConfig = {
   practiceName: "Goodrich Eye Clinic",
-  phoneDisplay: "(512) 555-0199",
-  phoneE164: "+15125550199",
+  phoneDisplay: "Coming Soon",
+  phoneE164: "",
   address: "1200 Vision Park Blvd, Austin, TX 78701",
   mapQuery: "1200 Vision Park Blvd, Austin, TX 78701",
   hours: [
