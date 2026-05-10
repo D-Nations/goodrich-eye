@@ -2,10 +2,10 @@
   "use strict";
 
   var defaults = {
-    phoneDisplay: "Coming Soon",
-    phoneE164: "",
-    address: "1200 Vision Park Blvd, Austin, TX 78701",
-    mapQuery: "1200 Vision Park Blvd, Austin, TX 78701",
+    phoneDisplay: "(512) 555-0199",
+    phoneE164: "+15125550199",
+    address: "7200 Wyoming Springs Dr, Suite 100, Austin, TX 78681",
+    mapQuery: "7200 Wyoming Springs Dr, Suite 100, Austin, TX 78681",
     hours: ["Mon-Thu: 8:00 AM - 5:00 PM", "Fri: 8:00 AM - 1:00 PM", "Sat-Sun: Closed"],
     youtubeVideos: [],
     upcomingVideoTopics: [
@@ -30,14 +30,9 @@
     });
 
     document.querySelectorAll("[data-phone-link]").forEach(function (node) {
-      if (config.phoneE164) {
-        node.setAttribute("href", "tel:" + config.phoneE164);
-        if (!node.getAttribute("aria-label")) {
-          node.setAttribute("aria-label", "Call " + config.phoneDisplay);
-        }
-      } else {
-        node.removeAttribute("href");
-        node.removeAttribute("aria-label");
+      node.setAttribute("href", "tel:" + config.phoneE164);
+      if (!node.getAttribute("aria-label")) {
+        node.setAttribute("aria-label", "Call " + config.phoneDisplay);
       }
     });
 

@@ -1,9 +1,9 @@
 window.clinicSiteConfig = {
   practiceName: "Goodrich Eye Clinic",
-  phoneDisplay: "Coming Soon",
-  phoneE164: "",
-  address: "1200 Vision Park Blvd, Austin, TX 78701",
-  mapQuery: "1200 Vision Park Blvd, Austin, TX 78701",
+  phoneDisplay: "(512) 555-0199",
+  phoneE164: "+15125550199",
+  address: "7200 Wyoming Springs Dr, Suite 100, Austin, TX 78681",
+  mapQuery: "7200 Wyoming Springs Dr, Suite 100, Austin, TX 78681",
   hours: [
     "Mon-Thu: 8:00 AM - 5:00 PM",
     "Fri: 8:00 AM - 1:00 PM",
