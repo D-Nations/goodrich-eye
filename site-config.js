@@ -1,7 +1,7 @@
 window.clinicSiteConfig = {
   practiceName: "Goodrich Eye Clinic",
   phoneDisplay: "(512) 555-0199",
-  phoneE164: "+15125550199",
+  phoneE164: "pending",
   address: "7200 Wyoming Springs Dr, Suite 100, Austin, TX 78681",
   mapQuery: "7200 Wyoming Springs Dr, Suite 100, Austin, TX 78681",
   hours: [
@@ -29,3 +29,4 @@ window.clinicSiteConfig = {
     "Tour of the office and exam equipment"
   ]
 };
+
