@@ -14,12 +14,12 @@ Use this checklist before sharing the clinic website publicly.
 - [ ] Confirm the final practice name.
 - [ ] Confirm the final appointment phone number.
 - [ ] Confirm the final address and office hours.
-- [ ] Replace placeholder content in `site-config.js`.
+- [ ] Replace placeholder content in `index.html`.
 - [ ] Confirm `index.html` metadata and schema match final details.
 
 ## 2. Hosting and HTTPS
 
-- [ ] Confirm GitHub Pages source is correct (`branch` + `/(root)`).
+- [ ] Confirm GitHub Pages source is GitHub Actions.
 - [ ] Confirm site loads over `https://`.
 - [ ] Confirm `http://` redirects to `https://`.
 - [ ] Confirm no mixed-content warnings in browser devtools.

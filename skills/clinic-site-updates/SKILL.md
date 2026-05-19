@@ -7,16 +7,19 @@ description: Maintain and refresh the static ophthalmology clinic website. Use w
 
 ## Quick Workflow
 
-1. Read `site-config.js` first and update the practice data there:
-- `phoneDisplay`, `phoneE164`
-- `address`, `mapQuery`
-- `hours`
-- `youtubeVideos`
+1. Read `index.html` first and update practice data there:
+- Phone text and any `tel:` links
+- Address text, Google Maps link, and map iframe `data-src`
+- Office hours
+- YouTube video cards and `data-youtube-id` attributes
+- Hero copy, service descriptions, FAQ text, and JSON-LD metadata in `<head>`
 
-2. Keep `index.html` content aligned with the config and business needs:
-- Hero copy and service descriptions
-- FAQ text
-- JSON-LD metadata in `<head>`
+2. Keep `script.js` behavior-only:
+- Mobile menu behavior
+- Current-year rendering
+- Lazy-loaded map iframe
+- Click-to-load YouTube cards
+- No clinic phone, address, hours, or content copy
 
 3. Keep crawler and discovery files synced when facts change:
 - `robots.txt`
@@ -52,7 +55,7 @@ Use this when the user asks for 12KB-style transport optimization.
 ## Quality Gates
 
 - Verify mobile layout still works at common widths (360px, 768px, 1280px).
-- Confirm every `data-phone-link` node points to `tel:<E164 number>`.
+- Confirm every appointment phone link points to `tel:<E164 number>` once a final phone number exists.
 - Confirm map link and map embed both use the same address query.
 - Confirm `title`, meta description, canonical URL, and schema values still match current practice details.
 - Confirm `check-first-flight.ps1` passes before shipping transport-focused changes.

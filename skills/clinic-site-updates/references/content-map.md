@@ -4,15 +4,13 @@ Use this map to perform fast, consistent updates.
 
 ## Contact and Core Practice Data
 
-- Primary file: `site-config.js`
-- Fields:
-  - `practiceName`
-  - `phoneDisplay`
-  - `phoneE164`
-  - `address`
-  - `mapQuery`
-  - `hours`
-  - `youtubeVideos`
+- Primary file: `index.html`
+- Areas:
+  - Practice name and metadata
+  - Phone text and any `tel:` links
+  - Address text, Google Maps link, and map iframe `data-src`
+  - Office hours
+  - YouTube cards and `data-youtube-id` attributes
 
 ## Homepage Content and Structured Data
 
@@ -38,11 +36,11 @@ Use this map to perform fast, consistent updates.
 
 - Primary file: `script.js`
 - Responsibilities:
-  - Bind config values into DOM placeholders
-  - Render click-to-load YouTube cards
-  - Build map URLs and lazy-load the map iframe
-  - Render office hours
+  - Enhance HTML video cards into click-to-load YouTube embeds
+  - Lazy-load the map iframe from its existing `data-src`
   - Mobile menu behavior
+  - Current-year rendering
+- Do not store clinic phone, address, hours, or page copy in this file.
 
 ## Crawler and SEO Files
 
