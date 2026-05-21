@@ -3,7 +3,7 @@
   --paper: #ffffff;
   --paper-soft: #f4f6fb;
   --ink: #12243f;
-  --ink-soft: #4d6487;
+  --ink-soft: #1860cd;
   --accent: #315bb0;
   --accent-deep: #1f3c78;
   --line: #c5d1e6;
@@ -60,7 +60,7 @@ img {
 }
 
 .section-alt {
-  background: #eff6f5;
+  background: #99c5ff;
 }
 
 h1,
@@ -183,7 +183,7 @@ p {
 .button-ghost {
   background: transparent;
   color: var(--accent-deep);
-  border-color: rgba(10, 84, 81, 0.34);
+  border-color: rgba(4, 38, 96, 0.34);
   box-shadow: none;
 }
 
