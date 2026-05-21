@@ -60,7 +60,7 @@ img {
 }
 
 .section-alt {
-  background: #99c5ff;
+  background: #b7d6ff;
 }
 
 h1,
@@ -94,7 +94,7 @@ p {
   z-index: 100;
   backdrop-filter: blur(10px);
   background: rgba(242, 248, 247, 0.9);
-  border-bottom: 1px solid rgba(18, 53, 63, 0.12);
+  border-bottom: 1px solid rgba(18, 38, 63, 0.12);
 }
 
 .header-row {
@@ -335,7 +335,7 @@ p {
   align-items: center;
   gap: 0.3rem;
   border-radius: 999px;
-  background: rgba(49, 91, 176, 0.9);
+  background: rgba(79, 120, 203, 0.9);
   color: #ffffff;
   font-size: 0.85rem;
   font-weight: 700;
@@ -459,7 +459,7 @@ details p {
 
 .cta-strip .button {
   background: #ffffff;
-  color: #1f3c78;
+  color: #48659f;
   box-shadow: none;
 }
 
